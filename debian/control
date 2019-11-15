@@ -1,0 +1,14 @@
+Source: astroberry-server-wiz
+Section: admin
+Priority: optional
+Maintainer: Radek Kaczorek <rkaczorek@gmail.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libglib2.0-dev, libgtk2.0-dev,
+ libx11-dev, intltool, libpackagekit-glib2-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/rkaczorek/astroberry-server-wiz.git
+
+Package: astroberry-server-wiz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, packagekit
+Description: Astroberry Server first-run wizard
+ Wizard which performs initial configuration of system settings

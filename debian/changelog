@@ -1,0 +1,5 @@
+astroberry-server-wiz (2.0.0) buster; urgency=low
+
+  * Initial release
+
+ -- Radek Kaczorek <rkaczorek@gmail.com>  Fri, 15 Nov 2019 03:23:06 +0100

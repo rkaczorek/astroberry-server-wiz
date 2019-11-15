@@ -1,0 +1,7 @@
+[encoding: UTF-8]
+src/astroberry-server-wiz.c
+src/dhcpcd-gtk/main.c
+src/dhcpcd-gtk/wpa.c
+[type: gettext/glade] data/astroberry-server-wiz.ui
+# files added by intltool-prepare
+data/astroberry-server-wiz.desktop.in

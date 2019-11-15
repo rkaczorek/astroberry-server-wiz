@@ -1,4 +1,5 @@
 /*
+Copyright (c) 2019 Radek Kaczorek <rkaczorek AT gmail DOT com>
 Copyright (c) 2018 Raspberry Pi (Trading) Ltd.
 All rights reserved.
 
@@ -315,7 +316,7 @@ static gpointer set_locale (gpointer data)
     char *ccc, *buffer, *cptr, *var;
     int siz;
     gboolean in_list, var_match;
-    
+
     // set timezone
     if (g_strcmp0 (init_tz, city))
     {
@@ -654,7 +655,7 @@ static int find_line (char **lssid, int *sec)
     {
         gtk_tree_model_get (model, &iter, 0, lssid, 3, sec, -1);
         if (g_strcmp0 (*lssid, _("Searching for networks - please wait..."))) return 1;
-    } 
+    }
     return 0;
 }
 
@@ -1118,7 +1119,7 @@ int main (int argc, char *argv[])
     gtk_table_attach (GTK_TABLE (wid), GTK_WIDGET (country_cb), 1, 2, 0, 1, GTK_FILL | GTK_SHRINK, GTK_FILL | GTK_SHRINK, 0, 0);
     gtk_table_attach (GTK_TABLE (wid), GTK_WIDGET (language_cb), 1, 2, 1, 2, GTK_FILL | GTK_SHRINK, GTK_FILL | GTK_SHRINK, 0, 0);
     gtk_table_attach (GTK_TABLE (wid), GTK_WIDGET (timezone_cb), 1, 2, 2, 3, GTK_FILL | GTK_SHRINK, GTK_FILL | GTK_SHRINK, 0, 0);
-    gtk_widget_set_tooltip_text (GTK_WIDGET (country_cb), _("Set the country in which you are using your Pi"));
+    gtk_widget_set_tooltip_text (GTK_WIDGET (country_cb), _("Set the country in which you are using your Astroberry Server"));
     gtk_widget_set_tooltip_text (GTK_WIDGET (language_cb), _("Set the language in which applications should appear"));
     gtk_widget_set_tooltip_text (GTK_WIDGET (timezone_cb), _("Set the closest city to your location"));
 

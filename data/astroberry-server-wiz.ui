@@ -91,8 +91,8 @@
   <object class="GtkDialog" id="wizard_dlg">
     <property name="can_focus">False</property>
     <property name="border_width">5</property>
-    <property name="title" translatable="yes">Welcome to Raspberry Pi</property>
-    <property name="icon">/usr/share/raspberrypi-artwork/raspitr.png</property>
+    <property name="title" translatable="yes">Welcome to Astroberry Server</property>
+    <property name="icon">/usr/share/astroberry-server-artwork/astroberrytr.png</property>
     <property name="type_hint">dialog</property>
     <property name="resizable">false</property>
     <child internal-child="vbox">
@@ -174,7 +174,7 @@
                   <object class="GtkImage" id="image1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="pixbuf">raspberry-pi-logo.png</property>
+                    <property name="pixbuf">astroberry-logo.png</property>
                     <property name="pixel_size">96</property>
                   </object>
                   <packing>
@@ -189,7 +189,7 @@
                     <property name="can_focus">False</property>
                     <property name="xalign">0</property>
                     <property name="yalign">0</property>
-                    <property name="label" translatable="yes">Welcome to the Raspberry Pi Desktop!
+                    <property name="label" translatable="yes">Welcome to the Astroberry Server!
 
 Before you start using it, there are a few things to set up.
 
@@ -344,7 +344,7 @@ Press 'Next' to get started. </property>
                     <property name="can_focus">False</property>
                     <property name="xalign">0</property>
                     <property name="yalign">0</property>
-                    <property name="label" translatable="yes">The default 'pi' user account currently has the password 'raspberry'. It is strongly recommended that you change this to a different password that only you know.</property>
+                    <property name="label" translatable="yes">The default 'astroberry' user account currently has the password 'astroberry'. It is strongly recommended that you change this to a different password that only you know.</property>
                     <property name="wrap">True</property>
                   </object>
                   <packing>
@@ -675,7 +675,7 @@ Press 'Next' to get started. </property>
                     <property name="can_focus">False</property>
                     <property name="xalign">0</property>
                     <property name="yalign">0</property>
-                    <property name="label" translatable="yes">Press 'Next' to check that Raspbian is up to date, or 'Skip' to continue without checking.</property>
+                    <property name="label" translatable="yes">Press 'Next' to check that Astroberry Server is up to date, or 'Skip' to continue without checking.</property>
                     <property name="wrap">True</property>
                   </object>
                   <packing>
@@ -718,7 +718,7 @@ Press 'Next' to get started. </property>
                     <property name="can_focus">False</property>
                     <property name="xalign">0</property>
                     <property name="yalign">0</property>
-                    <property name="label" translatable="yes">Your Raspberry Pi now is set up and ready to go.</property>
+                    <property name="label" translatable="yes">Your Astroberry Server is set up and ready to go.</property>
                     <property name="wrap">True</property>
                   </object>
                   <packing>
@@ -746,7 +746,7 @@ Press 'Next' to get started. </property>
                   <object class="GtkImage" id="image2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="pixbuf">raspberry-pi-logo.png</property>
+                    <property name="pixbuf">astroberry-logo.png</property>
                   </object>
                   <packing>
                     <property name="expand">True</property>

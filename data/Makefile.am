@@ -1,7 +1,7 @@
 uidir = $(datadir)/astroberry-server-wiz
 
 ui_in_files = 	astroberry-server-wiz.ui \
-				raspberry-pi-logo.png
+				astroberry-logo.png
 
 ui_DATA = $(ui_in_files)
 

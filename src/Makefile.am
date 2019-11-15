@@ -1,6 +1,6 @@
 bin_PROGRAMS = astroberry-server-wiz
 
-astroberry-server-wiz_CFLAGS = \
+astroberry_server_wiz_CFLAGS = \
 	-I$(top_srcdir) \
 	-DPACKAGE_LIB_DIR=\""$(libdir)"\" \
 	-DPACKAGE_DATA_DIR=\""$(datadir)/astroberry-server-wiz"\" \
@@ -12,7 +12,7 @@ astroberry-server-wiz_CFLAGS = \
 	$(PACKAGE_CFLAGS) \
 	$(G_CAST_CHECKS)
 
-astroberry-server-wiz_SOURCES = astroberry-server-wiz.c \
+astroberry_server_wiz_SOURCES = astroberry-server-wiz.c \
 		libdhcpcd/config.c \
 		libdhcpcd/dhcpcd.c \
 		libdhcpcd/wpa.c \
@@ -20,14 +20,14 @@ astroberry-server-wiz_SOURCES = astroberry-server-wiz.c \
 		dhcpcd-gtk/main.c
 
 
-astroberry-server-wiz_includedir = $(includedir)/astroberry-server-wiz
+astroberry_server_wiz_includedir = $(includedir)/astroberry-server-wiz
 
-astroberry-server-wiz_include_HEADERS =
+astroberry_server_wiz_include_HEADERS =
 
-astroberry-server-wiz_LDFLAGS = $(DYNAMIC_FLAGS)
-astroberry-server-wiz_DEPENDENCIES_EXTRA = $(BUILTIN_PLUGINS)
+astroberry_server_wiz_LDFLAGS = $(DYNAMIC_FLAGS)
+astroberry_server_wiz_DEPENDENCIES_EXTRA = $(BUILTIN_PLUGINS)
 
-astroberry-server-wiz_LDADD = \
+astroberry_server_wiz_LDADD = \
 		$(BUILTIN_PLUGINS) \
 		$(PACKAGE_LIBS) \
 		$(X11_LIBS) \
